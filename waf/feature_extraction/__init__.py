@@ -7,7 +7,7 @@
 
 import os
 import pandas as pd
-from sklearn.externals import joblib
+import joblib
 from sklearn.model_selection import train_test_split
 from sklearn.pipeline import FeatureUnion
 from typing import Dict, Tuple
