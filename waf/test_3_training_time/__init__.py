@@ -10,7 +10,7 @@ import numpy as np
 import pandas as pd
 import seaborn as sns
 import time
-from sklearn.externals import joblib
+import joblib
 from sklearn.pipeline import make_pipeline, make_union
 from sklearn.svm import OneClassSVM
 from ..base import BASE_PATH
